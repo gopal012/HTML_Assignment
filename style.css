@@ -1,0 +1,53 @@
+.greenBackGround{
+    background-color: rgb(2, 196, 144);
+}
+
+.lightGreenbg{
+    background-color: rgb(130, 189, 26);
+}
+
+.border-g{
+    border: 2px solid rgb(2, 173, 122);
+}
+
+.border-lg{
+    border: 2px solid rgb(117, 161, 41);
+}
+
+.border-input{
+    border: 1.5px solid black;
+}
+
+.border-right{
+    border-right: 5px solid rgb(2, 196, 144);
+}
+
+@media screen and (max-width: 992px) {          
+    #form {
+      border: none;
+    }
+}
+
+.smallfont{
+    font-size: 0.9rem; 
+}
+
+#studentCard:nth-child(even){
+    background-color: rgb(221, 245, 181);
+}
+
+
+/*-------------------------------------------  Animation --------------------------------*/
+#studentCard{
+    position: relative;
+    animation: Gopal 0.5s ease-in 1;
+}
+
+@keyframes Gopal{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
